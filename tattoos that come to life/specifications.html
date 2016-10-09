@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!--  Bootstrap added -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href=
+    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel=
+    "stylesheet">
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src=
+    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ewert" rel=
+    "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel=
+    "stylesheet">
+
+    <title>Imagination Project</title>
+    <link href="tattoo.html" rel="stylesheet">
+    <link href="products.html" rel="stylesheet">
+    <link href="specifications.html" rel="stylesheet">
+    <link href="tattoo.css" rel="stylesheet" type="text/css">
+    <style>
+    </style>
+</head>
+
+<body class="img-responsive" id="specifications">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- navbar-header is used to add links onto the naviagtion bar. -->
+                <button class="navbar-toggle" data-target="#myNavbar"
+                data-toggle="collapse" type="button"><span class=
+                "icon-bar"></span> <span class="icon-bar"></span> <span class=
+                "icon-bar"></span></button> <!-- Tattoos That Come To Life -->
+                 <a alt="Tattoos That Come To Life" class="navbar-brand" href=
+                "http://aplus.com/a/tattoos-move-with-video-mapping" id=
+                "tattoo" target="_blank">Lively Tattoos</a>
+            </div>
+            <!-- navbar collapse creates a bar in the  upper right corner of the screen when it is too small to view on devices. This way it will act as a dropdown. -->
+
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <!-- inside the header you must have nav navbar-nav to create your buttons/links onto the navigation bar. make sure you make your list active againor it won't do anything. -->
+
+
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.pinterest.com/explore/angel-tattoo-designs/"
+                        target="_blank">Angels</a>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.pinterest.com/explore/cartoon-tattoos/"
+                        target="_blank">Cartoon</a>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.pinterest.com/explore/flower-tattoos/"
+                        target="_blank">Flowers</a>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.pinterest.com/explore/star-tattoos/"
+                        target="_blank">Stars</a>
+                    </li>
+                    <!-- dropdown menu bar attempt on food; must make class="active" to start the dropdown menu. -->
+
+
+                    <li class="active">
+                        <a href="#">&gt;&gt;</a>
+                    </li>
+                    <!-- dropdown requires jquery and bootstrap. min for it to work. without the files you will not be able to click on it for any action. -->
+
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+                        "#">Animals<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href=
+                                "https://www.pinterest.com/explore/dog-tattoos/"
+                                target="_blank">Dogs</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "https://www.pinterest.com/explore/cat-tattoos/"
+                                target="_blank">Cats</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "https://www.pinterest.com/explore/frog-tattoos/"
+                                target="_blank">Frogs</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.google.com/search?q=animal+tattoos&biw=1366&bih=589&tbm=isch&tbo=u&source=univ&sa=X&sqi=2&ved=0ahUKEwiWj5GmzJfPAhVI5IMKHc8kBQMQsAQIGw&dpr=1"
+                        target="_blank">Images</a>
+                    </li>
+                </ul>
+                <!-- We still need to use the navbar left so that the search form will place next to the links and dropdown -->
+
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Search" type=
+                        "text">
+                    </div>
+                    <!--button type at this time is a pretty simple form. no active use at this time-->
+                    <button class="btn btn-default" type=
+                    "submit">Submit</button>
+                </form>
+                <!--end of form-group with the input type and button. Very little room now for extras on the navigation bar. -->
+                <!-- navbar-right will give us some space in the middle to add more links or icons. -->
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"><span class=
+                        "glyphicon glyphicon-user"></span> Sign Up</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#"><span class=
+                        "glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end of div taken out for collpase -->
+        </div>
+    </nav>
+
+
+    <div class="container img-responsive">
+        <!-- Breadcrumb menu to navigate between HTML pages. -->
+<br>
+        <h4>Tatoos</h4> 
+
+
+        <ul class="breadcrumb" id="bread">
+            <li class="active">
+                <a href="tattoo.html" target="_blank">Home</a>
+            </li>
+
+
+            <li>
+                <a href="products.html" target=
+                "_blank">Product</a>
+            </li>
+            <!--  this section will be disabled for right now   
+    <li><a href="#">Cartoons</a></li>
+    <li><a href="#">Flowers</a></li>
+    <li><a href="#">Stars</a></li>
+    <li><a href="#">Animals</a></li> -->
+
+
+            <li>
+                <a href="specifications.html" target=
+                "_blank">Specs</a>
+            </li>
+        </ul>
+    </div>
+    <!-- jumbotron text starts right under naviagtion bar, let's begin, shall we!!! -->
+
+
+    <div class="container img-responsive">
+        <div class="page-header">
+            <h1 class="tattoo2">Specifications</h1>
+        </div>
+    </div>
+    <!--just one paragraph under the header-->
+
+
+    <div class="container img-responsive" id="specs1">
+        <p class="para2">Specifications directions such as adding water, salt
+        and fairy dust will bring the tattoo to life.</p>
+    </div>
+    <!--Create a specifications table now-->
+
+
+    <div class="container img-responsive">
+        <h2 id="specs2">Specifications</h2>
+        <!--The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>-->
+
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="table1">
+                <thead>
+                    <tr class="tr1">
+                        <th>Add for life</th>
+
+                        <th>Angels</th>
+
+                        <th>Cartoons</th>
+
+                        <th>Flowers</th>
+
+                        <th>Stars</th>
+
+                        <th>Animals</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    <tr class="tr1">
+                        <td>Water(milliliters)</td>
+
+                        <td>19</td>
+
+                        <td>5</td>
+
+                        <td>35</td>
+
+                        <td>22</td>
+
+                        <td>11</td>
+                    </tr>
+
+
+                    <tr class="tr1">
+                        <td>Salt(grams)</td>
+
+                        <td>77</td>
+
+                        <td>3</td>
+
+                        <td>100</td>
+
+                        <td>23</td>
+
+                        <td>0</td>
+                    </tr>
+
+
+                    <tr class="tr1">
+                        <td>Pepper(grams)</td>
+
+                        <td>0</td>
+
+                        <td>5</td>
+
+                        <td>5</td>
+
+                        <td>4</td>
+
+                        <td>9</td>
+                    </tr>
+
+
+                    <tr class="tr1">
+                        <td>Fairy Dust(sprinkles)</td>
+
+                        <td>10</td>
+
+                        <td>7</td>
+
+                        <td>5</td>
+
+                        <td>2</td>
+
+                        <td>4</td>
+                    </tr>
+
+
+                    <tr class="tr1">
+                        <td>Honey(teaspoons)</td>
+
+                        <td>0</td>
+
+                        <td>2</td>
+
+                        <td>2</td>
+
+                        <td>3</td>
+
+                        <td>2</td>
+                    </tr>
+
+
+                    <tr class="tr1">
+                        <td>Sweat(tablespoons)</td>
+
+                        <td>1</td>
+
+                        <td>0</td>
+
+                        <td>0</td>
+
+                        <td>0</td>
+
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <!-- go to top of page -->
+     <!-- class for att is used for #top -->
+
+
+    <div class="img-responsive" style="text-align: center">
+        <a class="att" href="#top">Go to top of page</a>
+    </div>
+    <br>
+    <!-- <br>breaks give spaces in height -->
+    <br>
+    <br>
+</body>
+</html>

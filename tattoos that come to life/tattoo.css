@@ -1,0 +1,150 @@
+/* h1 jumbotron text of St. Louis is centered. */
+/*paragraph under jumbotron is indented more than the regular text-indent: inherit */
+/* background image is granite-like */
+/* always make sure your background image doesn't hide your text */
+
+#home {
+    background-image: url("backgrounds/blueflow.jpg");
+}
+
+#angels {
+    background-image: url("backgrounds/gray.jpg");
+}
+
+#specifications {
+    background-image: url("backgrounds/nightwater.jpg");
+}
+
+/* open up the other background images as needed 
+#adultgetaway {
+    background-image: url("backgrounds/mexico.jpg");
+}
+
+#parks {
+    background-image: url("backgrounds/mountaincamp.jpg");
+}
+
+#concertvenues {
+    background-image: url("backgrounds/grassymount.jpg");
+}
+*/
+
+#tattoo {
+    text-align: center;
+    font-size: 26px;
+    font-weight:900;
+}
+.breadcrumb {
+    text-align: center;
+    padding: 15px;
+}
+
+.tattoo1 {
+    text-align: center; 
+    padding: 5px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.para1 {
+      font-family: 'Lobster', cursive;
+      font-size: 30px;
+      text-indent: 80px;
+      color: #ffffff;
+    }
+
+.tattoo2 {
+    text-align: center; 
+    padding: 5px;
+    font-size: 50px;
+    color: #39604b;
+}
+
+.para2 {
+      font-family: 'Ewert', cursive;
+      font-size: 40px;
+      text-indent: 80px;
+      color: #39604b;
+}
+         
+#big { 
+    border-image: url("angels/angel10.jpg");
+    margin: auto;
+    padding; 0;
+    display: block;
+}
+
+table, thead, tbody, th, td, tr {
+    border: 5px solid #000000;
+    text-align: center;
+    font-weight: 800;
+}
+
+tr:hover {
+    background-color:#f5f5f5;
+}
+
+/* only add when the top doesn't work    
+}
+#table1 {
+    border: 5px solid #000000;
+    margin: auto;
+    padding: 2px;    
+}
+
+.tr1 {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+*/
+#specs2 { 
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+}
+
+#white {
+    font-family: 'Ewert', cursive;
+    color: #ffffff;
+}
+#three {
+    text-align: center;
+    font-size: 20px;
+    image-resolution: snap;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.image {
+      text-align: center;
+      padding: 15px;
+    }
+    
+.img-circle img-responsive {
+      list-style-image: none;
+      padding: 15px;
+    }
+    /* class for links top of page */
+    
+.att {
+      border: solid;
+      border-width: 1px;
+      border-color: #ffffff;
+      font-size: 28px;
+      color: #000000;
+}
+
+@media only screen and (max-width: 613px) {
+    body {
+        background-color: #678567;
+        opacity: 0.4;
+    }
+}
+
+@media only screen and (max-width: 973px) {
+    body {
+        background-color: #ff8567;
+        opacity: 0.2;
+    }
+}
